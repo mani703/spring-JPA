@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:2d575f69-2b68-4aa2-a27e-a194dd457438
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
